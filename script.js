@@ -13,7 +13,7 @@ const updateGreeting = () => {
     greeting = "Good Evening";
   }
 
-  greetingElement.textContent = `${greeting}, Welcome to my portfolio`;
+  greetingElement.textContent = `Hello ${greeting}`;
 };
 
 // Function to update the copyright year
