@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prabesh L Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#" id="greeting">Welcome to my portfolio</a> <!-- Dynamic Greeting -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <!-- Download Resume Link -->
+          <li class="nav-item">
+            <a class="nav-link" href="./assest/resume/Prabesh_Lama_Full_Stack_Resume.pdf" download="Prabesh_Lama_Full_Stack_Resume.pdf">
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+          </li>
+          <!-- Dark Mode Toggle Button with Icon -->
+          <li class="nav-item">
+            <button id="dark-mode-toggle" class="btn btn-light">
+              <i class="fas fa-moon"></i> <!-- Moon icon for dark mode -->
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <img src="./assest/imsges/IMG_3780.PNG" alt="Profile Image" class="profile-img rounded-circle mb-3">
+      <h1>Prabesh Lama</h1>
+      <p class="lead">Full Stack Java Developer | 6+ Years of Experience | AI Enthusiast</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>I am a passionate Full Stack Java Developer with over 6 years of experience in building scalable web applications. I specialize in Java, Spring Boot, Angular, and database management. I love solving complex problems and delivering high-quality software solutions.</p>
+    </section>
+
+    <!-- Experience and Skills Section -->
+    <section class="experience-skills-container">
+      <!-- Experience Section -->
+      <div class="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+          <h3>Full Stack Java Developer</h3>
+          <p><strong>Verizon</strong> | March 2022 - Present</p>
+          <ul>
+            <li>Migrated from monolithic applications to microservices on AWS using Elastic Beanstalk.</li>
+            <li>Implemented RESTful APIs using Spring Boot and integrated with Angular frontend.</li>
+            <li>Optimized database queries, reducing response time by 30%.</li>
+          </ul>
+        </div>
+        <div class="experience-item">
+          <h3>Full Stack Java Developer</h3>
+          <p><strong>Fidelity Investment</strong> | Jun 2020 - Feb 2022</p>
+          <ul>
+            <li>Developed and maintained enterprise-level applications using Java and Spring.</li>
+            <li>Collaborated with cross-functional teams to deliver projects on time.</li>
+            <li>Improved application performance by 25% through code optimization.</li>
+          </ul>
+        </div>
+        <div class="experience-item">
+          <h3>Java Developer</h3>
+          <p><strong>KLX, INC</strong> | April 2018 - May 2020</p>
+          <ul>
+            <li>Developed secure REST APIs with OAuth2 and JWT for resource access and compliance.</li>
+            <li>Deployed scalable applications using AWS EC2, S3, and RDS for high availability.</li>
+            <li>Optimized backend performance, resolved production issues, and improved real-time data handling.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Skills Section -->
+      <div class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">Java (8, 11, 17)</div>
+          <div class="skill">Spring Boot</div>
+          <div class="skill">Angular</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">HTML/CSS</div>
+          <div class="skill">SQL/NoSQL</div>
+          <div class="skill">Git</div>
+          <div class="skill">Jenkins</div>
+          <div class="skill">Docker</div>
+          <div class="skill">Kubernetes</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+      <h2>Education</h2>
+      <div class="education-item">
+        <h3>Master of Science in Information Technology</h3>
+        <p><strong>University of the Cumberlands</strong></p>
+        <p>Williamsburg, Kentucky, USA</p>
+        <p><strong>Graduated:</strong> May 2024</p>
+      </div>
+      <div class="education-item">
+        <h3>Bachelor of Science in Computer Science</h3>
+        <p><strong>East Central University</strong></p>
+        <p>Ada, Oklahoma, USA</p>
+        <p><strong>Graduated:</strong> May 2019</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <p><strong>Email:</strong> prabesh.java@gmail.com</p>
+        <p><strong>Phone:</strong> +1 (682)-233-2839</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/prabesh-l-75518621b" target="_blank">linkedin.com/in/prabesh-lama</a></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; <span id="current-year"></span> Prabesh Lama. All rights reserved.</p> <!-- Dynamic Copyright Year -->
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
